@@ -1,0 +1,50 @@
+<html>
+  <head><h1>Unemployment Rates in the United States</h1></head>
+  <style>
+    .row {
+        text-align: center;
+      }
+      
+      .block {
+        height: 200px; 
+        width: 300px;
+        display: inline-block; 
+      }
+  </style>
+  <body>
+    <h3>Let's have a look at the visulizations</h3>
+    <div id="observablehq-viewof-yearSelect-9f2a9c88"></div>
+    <div id="observablehq-viewof-monthSelect-9f2a9c88"></div>
+    <div id="observablehq-viewof-occupation-9f2a9c88"></div>
+    <div id="observablehq-finalmap-9f2a9c88"></div>
+    <p>Credit: <a href="https://observablehq.com/d/c25f00aaa1af987e">Unemployment Rate in the United States by Riya Shetty</a></p>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+    import define from "https://api.observablehq.com/d/c25f00aaa1af987e.js?v=3";
+    new Runtime().module(define, name => {
+      if (name === "viewof yearSelect") return new Inspector(document.querySelector("#observablehq-viewof-yearSelect-9f2a9c88"));
+      if (name === "viewof monthSelect") return new Inspector(document.querySelector("#observablehq-viewof-monthSelect-9f2a9c88"));
+      if (name === "viewof occupation") return new Inspector(document.querySelector("#observablehq-viewof-occupation-9f2a9c88"));
+      if (name === "finalmap") return new Inspector(document.querySelector("#observablehq-finalmap-9f2a9c88"));
+      return ["data_year","data_month","occupations","unemp_rate","unemp_count","unemp_risk","chart","chart1","chart2"].includes(name);
+    });
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+    <!--<script type="module">
+         import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+        import define from "https://api.observablehq.com/d/c25f00aaa1af987e.js?v=3";
+        new Runtime().module(define, name => {
+        if (name === "viewof yearSelect") return new Inspector(document.querySelector("#observablehq-viewof-yearSelect-74665119"));
+        if (name === "viewof monthSelect") return new Inspector(document.querySelector("#observablehq-viewof-monthSelect-74665119"));
+        if (name === "viewof occupation") return new Inspector(document.querySelector("#observablehq-viewof-occupation-74665119"));
+        if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-74665119"));
+        if (name === "chart1") return new Inspector(document.querySelector("#observablehq-chart1-74665119"));
+        if (name === "chart2") return new Inspector(document.querySelector("#observablehq-chart2-74665119"));
+        return ["data_year","data_month","occupations","unemp_rate","unemp_count","unemp_risk"].includes(name);
+        }); 
+    </script> --> 
+  </body>
+</html>
