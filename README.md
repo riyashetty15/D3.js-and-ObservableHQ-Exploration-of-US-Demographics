@@ -8,7 +8,7 @@ First, I loaded the data into Observablehq using the d3.csv() function. I then u
 Overall, this project demonstrates how D3.js and Observablehq can be used to create interactive and engaging data visualizations that help users explore complex data sets in a meaningful way.
 <br>
 <br>
-The link to the visualisations: https://observablehq.com/d/c25f00aaa1af987e
+The link to the visualizations: https://observablehq.com/d/c25f00aaa1af987e
 
 
 
