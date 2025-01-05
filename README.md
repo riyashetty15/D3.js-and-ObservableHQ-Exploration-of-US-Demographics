@@ -18,5 +18,5 @@ This project showcases the power of data visualization. With D3.js and Observabl
 
 
 ### Link to the Visualizations
-To embark on this visual journey, explore the interactive visualizations here. Immerse yourself in the world of unemployment data, and discover the stories hidden within.
+To embark on this visual journey, explore the interactive visualizations <a href = "https://observablehq.com/d/c25f00aaa1af987e">here</a>. Immerse yourself in the world of unemployment data, and discover the stories hidden within.
 
