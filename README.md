@@ -1,4 +1,4 @@
-# A D3.js and ObservableHQ Exploration of US Demographics
+# A D3.js and ObservableHQ Exploration of US Unemployment Rate
 
 In this captivating project, I embarked on a visual exploration of unemployment rates across the United States, utilizing the powerful combination of D3.js and ObservableHQ. My goal was to create an interactive and insightful experience, shedding light on various factors that influence unemployment.
 
